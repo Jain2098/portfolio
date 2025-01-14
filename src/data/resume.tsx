@@ -66,8 +66,8 @@ export const DATA = {
       location: "Etobicoke",
       title: "Flex Driver",
       logoUrl: "/amzn.png",
-      start: "January 2019",
-      end: "December 2023",
+      start: "Jan 2019",
+      end: "Dec 2023",
       description:
         "Efficiently delivered packages to customers using the Amazon Flex app for route optimization, tracking, and status updates while ensuring timely, accurate deliveries and maintaining communication with support to resolve any delivery issues as needed.",
     },
@@ -78,8 +78,8 @@ export const DATA = {
       location: "Etobicoke",
       title: "Sales Representative",
       logoUrl: "/h-and-s-toys.png",
-      start: "January 2018",
-      end: "December 2020",
+      start: "Jan 2018",
+      end: "Dec 2020",
       description:
         "Assisted customers with product inquiries and provided technical support for electronic toys, quickly resolving issues to enhance customer satisfaction and adapting to a variety of troubleshooting needs.",
     },
@@ -90,8 +90,8 @@ export const DATA = {
       location: "Santa Clara, CA",
       title: "Baker and Front Desk Associate",
       logoUrl: "/tim.png",
-      start: "January 2020",
-      end: "April 2020",
+      start: "Jan 2020",
+      end: "Apr 2020",
       description:
         "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
     },
