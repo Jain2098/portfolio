@@ -159,7 +159,7 @@ export const DATA = {
     {
       title: "ImgShare",
       href: "https://image.himanshujain.me/",
-      dates: "April 2023 - September 2023",
+      dates: "July 2024",
       active: true,
       description:
         "Cross-browser image-sharing platform with upload, share, delete features, offline support via IndexedDB, and responsive dark/light mode UI.",
