@@ -124,11 +124,11 @@ export const DATA = {
         "Advanced Telegram management SaaS enabling secure OAuth authentication, multi-session handling, and task automation with scalable backend services.",
       technologies: ["Python", "Telethon", "OAuth", "RabbitMQ", "Redis", "MongoDB", "FastAPI", "Docker"],
       links: [
-        {
-          type: "Website",
-          href: "#",
-          icon: <Icons.globe className='size-3' />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "#",
+        //   icon: <Icons.globe className='size-3' />,
+        // },
       ],
       image: "/teletools.png",
       video: "",
