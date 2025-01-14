@@ -11,10 +11,25 @@ export const DATA = {
   summary:
     "In 2023, I started pursuing my Computer Programming & Analysis advanced diploma at Humber Polytechnic. While in college, I have built several projects and am currently working on TeleTools, an advanced Telegram management script. Previously, I completed projects like WiseRate, a comprehensive mortgage calculator. These experiences have helped me explore backend development with technologies like Java, Python, Spring Boot, FastAPI, RabbitMQ, Redis, SQL, and MongoDB. I enjoy solving real-world problems through code, collaborating in teams, and constantly learning to grow as a developer.",
   avatarUrl: "/me.jpg",
-  skills: ["Java", "Python", "React", "FastAPI", "SpringBoot", "SpringSecurity", "React Native", "SQL", "MongoDB", "RabbitMQ", "Redis"],
+  skills: [
+    "Java", 
+    "Python", 
+    "React", 
+    "FastAPI", 
+    "React Native", 
+    "SpringBoot", 
+    "SpringSecurity", 
+    "SQL", 
+    "MongoDB", 
+    "RabbitMQ", 
+    "Redis",
+    "Nginx",
+    "Heroku",
+    "Windows Server"
+  ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    
   ],
   contact: {
     email: "info@himanshujain.me",
@@ -29,7 +44,8 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/himanshujaininfo/",
+        // refer as its from portfolio site
+        url: "https://www.linkedin.com/in/himanshujaininfo/?ref=portfolio",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -37,8 +53,7 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:info@himanshujain.me",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -154,7 +169,7 @@ export const DATA = {
           type: "Website",
           href: "https://image.himanshujain.me/",
           icon: <Icons.globe className='size-3' />,
-        }
+        },
       ],
       image: "/imgshare.png",
       video: "",
@@ -164,14 +179,13 @@ export const DATA = {
       href: "https://Movies.himanshujain.me",
       dates: "June 2024",
       active: true,
-      description:
-        "WordPress-based movie hub leveraging TMDB API for real-time data and responsive design with Tailwind CSS.",
+      description: "WordPress-based movie hub leveraging TMDB API for real-time data and responsive design with Tailwind CSS.",
       technologies: ["WordPress", "TMDB API", "Tailwind CSS"],
       links: [
         {
           type: "Website",
           href: "https://Movies.himanshujain.me",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.globe className='size-3' />,
         },
       ],
       image: "/wpmovieshub.jpg",
@@ -182,14 +196,13 @@ export const DATA = {
       href: "https://Resume.himanshujain.me",
       dates: "Feb 2024",
       active: true,
-      description:
-        "Fully responsive resume builder app with dynamic routing, CRUD operations, and RESTful API integration.",
+      description: "Fully responsive resume builder app with dynamic routing, CRUD operations, and RESTful API integration.",
       technologies: ["React.js", "Node.js", "RESTful APIs"],
       links: [
         {
           type: "Website",
           href: "https://Resume.himanshujain.me",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.globe className='size-3' />,
         },
       ],
       image: "/resumebuilder.jpg",
@@ -200,14 +213,13 @@ export const DATA = {
       href: "",
       dates: "Feb 2024",
       active: true,
-      description:
-        "React Native-based Android app utilizing TMDB API for real-time movie data and search functionality.",
+      description: "React Native-based Android app utilizing TMDB API for real-time movie data and search functionality.",
       technologies: ["React Native", "TMDB API"],
       links: [
         {
           type: "Website",
           href: "https://Movies.himanshujain.me",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.globe className='size-3' />,
         },
       ],
       image: "/movieexplorer.jpg",
@@ -225,7 +237,7 @@ export const DATA = {
         {
           type: "Website",
           href: "https://DrakeImmigration.ca",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.globe className='size-3' />,
         },
       ],
       image: "/drakeimmigration.jpg",
