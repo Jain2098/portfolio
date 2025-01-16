@@ -1,8 +1,8 @@
 <div align="center">
-<img alt="Portfolio" src="https://github.com/user-attachments/assets/a7eeb679-b523-4502-a732-4d931f1d55f0" width="90%">
+<img alt="Portfolio" src="https://github.com/user-attachments/assets/d189faf1-d6e1-45ab-bef8-b2cde3b19866" width="90%">
 </div>
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/)
+Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/) by [dillionverma](https://github.com/dillionverma/portfolio)
 
 # Features
 
