@@ -118,7 +118,7 @@ export const DATA = {
     {
       title: "TeleTools",
       href: "#",
-      dates: "Dec 2024 - PRESENT",
+      dates: "PRESENT",
       active: true,
       description:
         "Advanced Telegram management SaaS enabling secure OAuth authentication, multi-session handling, and task automation with scalable backend services.",
@@ -227,7 +227,7 @@ export const DATA = {
     },
     {
       title: "Drake Immigration",
-      href: "https://DrakeImmigration.ca",
+      href: "https://immigration.himanshujain.me",
       dates: "Jan 2024",
       active: true,
       description:
@@ -236,7 +236,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://DrakeImmigration.ca",
+          href: "https://immigration.himanshujain.me",
           icon: <Icons.globe className='size-3' />,
         },
       ],
