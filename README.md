@@ -1,8 +1,7 @@
 <div align="center">
-<img alt="Portfolio" src="https://github.com/user-attachments/assets/d189faf1-d6e1-45ab-bef8-b2cde3b19866" width="90%">
-</div>
+<img alt="Portfolio" src="https://github.com/user-attachments/assets/af11aac1-a6d9-4638-8d46-acba4430e8e8" width="600">
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/) by [dillionverma](https://github.com/dillionverma/portfolio)
+</div>
 
 # Features
 
@@ -39,3 +38,10 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
    ```
 
 5. Open the [Config file](./src/data/resume.tsx) and make changes
+
+---
+
+### Credits
+
+This project is built with **Next.js**, **shadcn/ui**, and **Magic UI**.  
+It started as a fork of [dillionverma/portfolio](httpsgithub.com/dillionverma/portfolio) and has been modified as per my requirements.
