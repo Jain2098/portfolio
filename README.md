@@ -40,8 +40,9 @@
 5. Open the [Config file](./src/data/resume.tsx) and make changes
 
 ---
-
 ### Credits
-
 This project is built with **Next.js**, **shadcn/ui**, and **Magic UI**.  
 It started as a fork of [dillionverma/portfolio](https://github.com/dillionverma/portfolio) and has been modified as per my requirements.
+
+### License
+Licensed under the [MIT license](https://github.com/Jain2098/portfolio/blob/main/LICENSE.md).
