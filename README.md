@@ -44,4 +44,4 @@
 ### Credits
 
 This project is built with **Next.js**, **shadcn/ui**, and **Magic UI**.  
-It started as a fork of [dillionverma/portfolio](httpsgithub.com/dillionverma/portfolio) and has been modified as per my requirements.
+It started as a fork of [dillionverma/portfolio](https://github.com/dillionverma/portfolio) and has been modified as per my requirements.
