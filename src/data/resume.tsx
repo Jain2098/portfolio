@@ -10,8 +10,8 @@ export const DATA = {
     description:
         "Software Developer & IT Support Technician building practical tools, automations, and backend systems that solve real-world problems.",
     summary:
-        "In 2023, I started my Computer Programming & Analysis advanced diploma at Humber Polytechnic. Since then, I've built multiple backend-heavy projects and, in 2025, joined Savaria as an IT Service Desk Technician Intern supporting users across multiple sites. There I troubleshoot Windows and Microsoft 365 issues, manage devices with Intune and Endpoint Central, and document fixes so teams stay productive. On the side, I'm building TeleTools, an advanced Telegram automation toolkit, and a desktop video encoder in JavaFX. These experiences deepen my skills in Java, Python, Spring Boot, FastAPI, RabbitMQ, SQL, and MongoDB while letting me ship things that people actually use.",
-    avatarUrl: "/me.jpg",
+        "In 2023, I started my Computer Programming & Analysis advanced diploma at Humber Polytechnic. Since then, I've built multiple backend-heavy projects and, in 2025, joined **Savaria** as an **IT Help Desk Technician Intern**, later moving into an **IT Support Technician** role supporting users across multiple sites. There I built **Excel VBA automation tools** that cut data retrieval time from minutes to seconds, administered **Active Directory** and **Intune**, and automated a **Linux-based database backup pipeline**. These experiences deepen my skills in Java, Python, Spring Boot, FastAPI, SQL, and MongoDB while letting me ship things that people actually use.",
+    avatarUrl: "/me_v1.jpg",
 
     skills: [
         "Java",
@@ -69,48 +69,24 @@ export const DATA = {
             href: "https://savaria.com/",
             badges: [],
             location: "Brampton, ON",
-            title: "IT Service Desk Technician Intern",
+            title: "IT Support Technician",
+            logoUrl: "/savaria.png",
+            start: "Jan 2026",
+            end: "July 2026",
+            description:
+                "Built two Excel VBA automation tools, including a lookup dashboard that cut ERP data retrieval time from minutes to under 3 seconds. Administered Active Directory, deployed devices via Microsoft Intune, supported Microsoft 365 across departments, and resolved 800+ tickets spanning software, hardware, and network issues.",
+        },
+        {
+            company: "Savaria Concord Lifts",
+            href: "https://savaria.com/",
+            badges: [],
+            location: "Brampton, ON",
+            title: "IT Help Desk Technician Intern",
             logoUrl: "/savaria.png",
             start: "Jun 2025",
             end: "Dec 2025",
             description:
-                "Provided first-line IT support for 500+ users across multiple sites, resolving tickets in Freshservice, managing accounts in Active Directory and Microsoft 365, deploying and troubleshooting devices via Intune and Endpoint Central, and documenting solutions to keep teams productive.",
-        },
-        {
-            company: "Amazon",
-            href: "https://flex.amazon.ca/",
-            badges: [],
-            location: "Etobicoke, ON",
-            title: "Delivery Driver (Amazon Flex)",
-            logoUrl: "/amzn.png",
-            start: "Jan 2019",
-            end: "Dec 2023",
-            description:
-                "Delivered packages using the Amazon Flex app for route optimization, tracking, and status updates while ensuring timely deliveries and resolving issues as needed.",
-        },
-        {
-            company: "H & S Toys",
-            badges: [],
-            href: "#",
-            location: "Etobicoke, ON",
-            title: "Sales Representative & Technician",
-            logoUrl: "/h-and-s-toys.png",
-            start: "Jan 2018",
-            end: "Dec 2020",
-            description:
-                "Assisted customers, generated bills, supported shipping and receiving, and provided technical troubleshooting for electronic toys to improve satisfaction.",
-        },
-        {
-            company: "Tim Hortons",
-            href: "https://timhortons.ca/",
-            badges: [],
-            location: "Etobicoke, ON",
-            title: "Baker and Front Desk Associate",
-            logoUrl: "/tim.png",
-            start: "Jan 2020",
-            end: "Apr 2020",
-            description:
-                "Handled front counter and baking operations, managed inventory for baked products, and delivered customer service during busy hours.",
+                "Provided first-line IT support for 500+ users across multiple sites, resolving tickets in Freshservice, managing accounts in Active Directory and Microsoft 365, and deploying and troubleshooting devices via Intune, while documenting solutions to keep teams productive.",
         },
     ],
 
