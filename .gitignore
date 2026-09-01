@@ -38,3 +38,5 @@ next-env.d.ts
 ecosystem.config.js
 # local Codex/GSD tooling
 /.github/
+
+resume/
