@@ -1,46 +1,110 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { 
+    HomeIcon, 
+    UserIcon, 
+    SparklesIcon, 
+    BriefcaseIcon, 
+    GraduationCapIcon, 
+    FolderGit2Icon
+} from "lucide-react";
 
 export const DATA = {
     name: "Himanshu Jain",
     initials: "HJ",
     url: "https://himanshujain.me",
-    location: "Ontario, CA",
-    locationLink: "https://www.google.com/maps/place/Brampton,+ON",
+    location: "Toronto, ON",
+    locationLink: "https://www.google.com/maps/place/Toronto,+ON",
     description:
-        "Software Developer & IT Support Technician building practical tools, automations, and backend systems that solve real-world problems.",
+        "Software Developer & IT Support Technician building practical tools, AI agent automations (MCP), and full-stack systems.",
     summary:
-        "In 2023, I started my Computer Programming & Analysis advanced diploma at Humber Polytechnic. Since then, I've built multiple backend-heavy projects and, in 2025, joined **Savaria** as an **IT Help Desk Technician Intern**, later moving into an **IT Support Technician** role supporting users across multiple sites. There I built **Excel VBA automation tools** that cut data retrieval time from minutes to seconds, administered **Active Directory** and **Intune**, and automated a **Linux-based database backup pipeline**. These experiences deepen my skills in Java, Python, Spring Boot, FastAPI, SQL, and MongoDB while letting me ship things that people actually use.",
+        "Computer Programming & Analysis graduate from Humber College with hands-on experience in full-stack engineering (Python, React, PostgreSQL, ASP .NET, Spring Boot) and AI-integrated tooling with FastMCP. At **Savaria Concord Lifts**, I provided comprehensive on-site IT support, resolved **800+ tickets**, engineered an **Excel VBA & live ERP SQL dashboard** that cut retrieval time from minutes to under 3 seconds, and scripted a **PowerShell mass deployment across 50+ workstations**.",
     avatarUrl: "/me_v1.jpg",
 
+    // Categorized skills for structured 2x2 layout
+    skillsByCategory: {
+        "Languages & Frameworks": [
+            "Python",
+            "Java",
+            "TypeScript",
+            "C#",
+            "React",
+            "Next.js",
+            "Spring Boot",
+            "ASP .NET Core",
+            "FastAPI",
+            "Node.js",
+            "Tailwind CSS",
+            "JavaFX",
+        ],
+        "AI & Automation": [
+            "FastMCP",
+            "MCP (Model Context Protocol)",
+            "Claude Code",
+            "Agent Workflows",
+            "RAG",
+            "PowerShell",
+            "Bash Scripting",
+            "Linux Cron",
+            "rclone",
+            "Excel VBA",
+        ],
+        "Databases & Cloud": [
+            "PostgreSQL",
+            "MySQL",
+            "SQLite",
+            "MongoDB",
+            "Redis",
+            "RabbitMQ",
+            "Entity Framework Core",
+            "Docker",
+            "AWS (EC2)",
+        ],
+        "IT & Systems Admin": [
+            "Active Directory",
+            "Microsoft Entra",
+            "Microsoft Intune",
+            "Microsoft 365 / Exchange",
+            "Windows Server (RDP)",
+            "Linux CLI",
+            "Freshservice",
+            "RustDesk / AnyDesk",
+        ],
+    },
+
     skills: [
-        "Java",
         "Python",
-        "JavaFX",
-        "Spring Boot",
-        "Spring Security",
-        "FastAPI",
+        "Java",
+        "TypeScript",
+        "C#",
         "React",
         "Next.js",
-        "SQL",
+        "FastAPI",
+        "Spring Boot",
+        "ASP .NET Core",
+        "FastMCP",
         "PostgreSQL",
         "MongoDB",
-        "RabbitMQ",
         "Redis",
+        "RabbitMQ",
         "Docker",
-        "Nginx",
-        "Git",
-        "Windows Server",
+        "AWS",
         "PowerShell",
-        "Intune",
         "Active Directory",
+        "Microsoft Intune",
     ],
 
-    navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
+    navbar: [
+        { href: "/#hero", icon: HomeIcon, label: "Home" },
+        { href: "/#about", icon: UserIcon, label: "About" },
+        { href: "/#skills", icon: SparklesIcon, label: "Skills" },
+        { href: "/#work", icon: BriefcaseIcon, label: "Work" },
+        { href: "/#education", icon: GraduationCapIcon, label: "Education" },
+        { href: "/#projects", icon: FolderGit2Icon, label: "Projects" },
+    ],
 
     contact: {
         email: "info@himanshujain.me",
-        tel: "",
+        tel: "647-575-2098",
         social: {
             GitHub: {
                 name: "GitHub",
@@ -63,99 +127,133 @@ export const DATA = {
         },
     },
 
+    // TWO DISTINCT ON-SITE ROLES PRESERVED
     work: [
         {
-            company: "Savaria Concord Lifts",
+            company: "Savaria Concord Lifts Inc",
             href: "https://savaria.com/",
-            badges: [],
+            badges: ["On-Site"],
             location: "Brampton, ON",
             title: "IT Support Technician",
             logoUrl: "/savaria.png",
             start: "Jan 2026",
             end: "July 2026",
             description:
-                "Built two Excel VBA automation tools, including a lookup dashboard that cut ERP data retrieval time from minutes to under 3 seconds. Administered Active Directory, deployed devices via Microsoft Intune, supported Microsoft 365 across departments, and resolved 800+ tickets spanning software, hardware, and network issues.",
+                "- Built an unassigned Excel VBA dashboard integrating live ERP SQL queries via ODBC into a single interface, cutting data lookup time from minutes to under 3 seconds.\n- Scripted a PowerShell-based mass deployment for an Avaya softphone upgrade across 50+ workstations with network drive staging, silent install, and per-user configuration.\n- Resolved 800+ software, hardware, and network tickets across multiple facility locations with remote and on-site support in Freshservice.\n- Administered Active Directory and Microsoft Intune for user provisioning, group policy updates, and security policy enforcement.\n- Performed hardware upgrades (RAM/SSD), crash data recovery, and vendor repair coordination (e.g. Lenovo).",
         },
         {
-            company: "Savaria Concord Lifts",
+            company: "Savaria Concord Lifts Inc",
             href: "https://savaria.com/",
-            badges: [],
+            badges: ["On-Site", "Internship"],
             location: "Brampton, ON",
             title: "IT Help Desk Technician Intern",
             logoUrl: "/savaria.png",
-            start: "Jun 2025",
+            start: "June 2025",
             end: "Dec 2025",
             description:
-                "Provided first-line IT support for 500+ users across multiple sites, resolving tickets in Freshservice, managing accounts in Active Directory and Microsoft 365, and deploying and troubleshooting devices via Intune, while documenting solutions to keep teams productive.",
+                "- Provided first-line, on-site IT support for 500+ users across multiple sites, resolving technical tickets in Freshservice.\n- Managed user accounts, onboarding, password resets, and access permissions in Active Directory and Microsoft 365 (Exchange, Teams, OneDrive).\n- Deployed and staged employee laptops, desktops, and Surface devices using Microsoft Intune.\n- Maintained technical documentation and standard operating procedures (SOPs) for hardware and software rollouts.",
         },
     ],
 
     education: [
         {
-            school: "Humber Polytechnic",
+            school: "Humber College",
             href: "https://humber.ca/",
-            degree: "Computer Programming & Analysis",
+            degree: "Computer Programming and Analysis (Co-Op Advanced Diploma)",
+            badges: ["Co-Op"],
             logoUrl: "/humber.png",
-            start: "2023",
-            end: "2026",
+            start: "Jan 2023",
+            end: "Aug 2026",
+            description:
+                "**Relevant Coursework:** Data Structures & Algorithms, Database Design & SQL, Networking Essentials, Operating Systems, Machine Learning, Robotic Process Automation (RPA), ASP .NET Web Development, QA & Troubleshooting.",
         },
         {
-            school: "Humber Polytechnic",
+            school: "Humber College",
             href: "https://humber.ca/",
             degree: "Business Management",
             logoUrl: "/humber.png",
             start: "2017",
             end: "2018",
+            description:
+                "Foundations in business administration, professional communication, and operations management.",
+        },
+    ],
+
+    certifications: [
+        {
+            title: "AWS Academy Graduate - Cloud Security Foundations",
+            issuer: "Amazon Web Services (AWS)",
+            date: "Aug 2026",
+            logoUrl: "/amzn.png",
+            href: "https://www.credly.com/badges/12abedd0-9feb-4e2d-a7d8-063b7f28500f/print",
+            description:
+                "Training in AWS cloud security architecture, IAM access management, encryption, compliance standards, and automated threat monitoring.",
         },
     ],
 
     projects: [
         {
-            title: "Advanced Partial Video Encoder",
-            href: "#",
-            dates: "2025-PRESENT",
+            title: "AI Tool Server (MCP)",
+            category: "AI & Automation",
+            href: "https://github.com/Jain2098/MCP-Python-Project",
+            dates: "Aug 2026",
             active: true,
             description:
-                "Desktop video processing tool built with JavaFX and FFmpeg that analyzes media files, encodes selected segments with AV1, and manages complex encoding workflows through an intuitive UI.",
-            technologies: ["Java", "JavaFX", "FFmpeg", "Maven"],
-            links: [],
-            image: "/video-encoder.png",
+                "Multi-server agent tooling framework built with FastMCP. Implemented 3 tool-selection strategies (query routing, keyword pre-filtering, two-stage LLM) to eliminate tool sprawl across servers. Deployed to AWS EC2 over Server-Sent Events (SSE).",
+            technologies: ["Python", "FastMCP", "LLM", "AWS EC2", "SSE", "REST APIs"],
+            links: [
+                {
+                    type: "GitHub",
+                    href: "https://github.com/Jain2098/MCP-Python-Project",
+                    icon: <Icons.github className='size-3' />,
+                },
+            ],
+            image: "",
             video: "",
         },
         {
-            title: "TeleTools",
-            href: "#",
-            dates: "2025 - PRESENT",
+            title: "EquipTrack",
+            category: "Full Stack & Web",
+            href: "https://github.com/Jain2098/EquipTrack-CollegeProject",
+            dates: "Aug 2026",
             active: true,
             description:
-                "Advanced Telegram automation toolkit that manages multiple user and bot sessions, tracks channels and chats, and runs background tasks using a queue-based backend with Telethon and RabbitMQ.",
-            technologies: ["Python", "Telethon", "OAuth", "RabbitMQ", "Redis", "MongoDB", "FastAPI", "Docker"],
-            links: [],
-            image: "/teletools.png",
+                "Enterprise IT asset tracking web application built with ASP .NET Core MVC and Entity Framework Core. Features automated warranty alerts, category breakdowns, and end-of-life recycling logs.",
+            technologies: ["C#", "ASP .NET Core", "Entity Framework", "SQLite", "Bootstrap"],
+            links: [
+                {
+                    type: "GitHub",
+                    href: "https://github.com/Jain2098/EquipTrack-CollegeProject",
+                    icon: <Icons.github className='size-3' />,
+                },
+            ],
+            image: "/equiptrack.jpg",
             video: "",
         },
         {
             title: "WiseRate",
+            category: "Full Stack & Web",
             href: "https://Mortgage.himanshujain.me",
             dates: "Dec 2024",
             active: true,
             description:
-                "Comprehensive mortgage calculator web app with secure authentication, automated amortization schedules, and PDF downloads, built with Spring Boot and React.",
-            technologies: [
-                "Spring Boot",
-                "Java",
-                "Spring Security",
-                "Hibernate",
-                "SQL",
-                "React",
-                "Heroku",
-                "PDF Generation",
-            ],
+                "Team-based mortgage calculator web app with a Spring Boot backend, relational data handling, automated amortization schedule calculation, downloadable PDF generation, and React frontend.",
+            technologies: ["Spring Boot", "Java", "Spring Security", "React", "SQL", "Heroku"],
             links: [
                 {
                     type: "Website",
                     href: "https://Mortgage.himanshujain.me",
                     icon: <Icons.globe className='size-3' />,
+                },
+                {
+                    type: "Frontend",
+                    href: "https://github.com/WiseRate/frontend",
+                    icon: <Icons.github className='size-3' />,
+                },
+                {
+                    type: "Backend",
+                    href: "https://github.com/WiseRate/backend",
+                    icon: <Icons.github className='size-3' />,
                 },
             ],
             image: "/wiserate.png",
@@ -163,12 +261,13 @@ export const DATA = {
         },
         {
             title: "ImgShare",
+            category: "Full Stack & Web",
             href: "https://image.himanshujain.me/",
             dates: "July 2024",
             active: true,
             description:
-                "Cross-browser image-sharing platform with upload, share, delete features, offline support via IndexedDB, and responsive dark/light mode UI.",
-            technologies: ["React.js", "Node.js", "IndexedDB", "Tailwind CSS", "Dark/Light Mode"],
+                "High-performance image-sharing platform featuring fast uploads, multi-platform embed links, and offline caching via IndexedDB that cut bandwidth usage by 90% while achieving a 95+ Lighthouse score.",
+            technologies: ["React.js", "Node.js", "IndexedDB", "Tailwind CSS"],
             links: [
                 {
                     type: "Website",
@@ -180,13 +279,109 @@ export const DATA = {
             video: "",
         },
         {
+            title: "System Task Automation Scripts",
+            category: "Systems & Tools",
+            href: "#",
+            dates: "2025 - Present",
+            active: true,
+            description:
+                "Automated PowerShell, VBScript, and Bash tools for system maintenance, cache clearing, and unattended daily Linux database backups synchronized to remote cloud storage via rclone.",
+            technologies: ["PowerShell", "Bash", "Linux Cron", "rclone", "VBScript", "Windows Batch"],
+            links: [
+                {
+                    type: "GitHub",
+                    href: "#",
+                    icon: <Icons.github className='size-3' />,
+                },
+            ],
+            image: "",
+            video: "",
+        },
+        {
+            title: "IPv4 Subnet Calculator",
+            category: "Systems & Tools",
+            href: "https://github.com/Jain2098/python-subnet-gui",
+            dates: "Dec 2024",
+            active: true,
+            description:
+                "Python desktop utility applying algorithmic logic to real-time IPv4 subnet analysis, CIDR notation, network/broadcast addresses, and host range calculations.",
+            technologies: ["Python", "Tkinter", "Networking", "IPv4/CIDR"],
+            links: [
+                {
+                    type: "GitHub",
+                    href: "https://github.com/Jain2098/python-subnet-gui",
+                    icon: <Icons.github className='size-3' />,
+                },
+            ],
+            image: "",
+            video: "",
+        },
+        {
+            title: "TeleTools",
+            category: "AI & Automation",
+            href: "#",
+            dates: "2025 - Present",
+            active: true,
+            description:
+                "Advanced Telegram automation toolkit managing multi-session bots, chat tracking, and asynchronous queue workers using Telethon, RabbitMQ, Redis, MongoDB, and FastAPI.",
+            technologies: ["Python", "Telethon", "FastAPI", "RabbitMQ", "Redis", "MongoDB", "Docker"],
+            links: [
+                {
+                    type: "GitHub",
+                    href: "#",
+                    icon: <Icons.github className='size-3' />,
+                },
+            ],
+            image: "/teletools.png",
+            video: "",
+        },
+        {
+            title: "Advanced Partial Video Encoder",
+            category: "Mobile & Desktop",
+            href: "#",
+            dates: "2025 - Present",
+            active: true,
+            description:
+                "Desktop video processing tool built with JavaFX and FFmpeg that analyzes media streams, encodes partial segment cuts using AV1 codec, and manages multi-threaded encoding queues.",
+            technologies: ["Java", "JavaFX", "FFmpeg", "Maven"],
+            links: [
+                {
+                    type: "GitHub",
+                    href: "#",
+                    icon: <Icons.github className='size-3' />,
+                },
+            ],
+            image: "/video-encoder.png",
+            video: "",
+        },
+        {
+            title: "MovieExplorer",
+            category: "Mobile & Desktop",
+            href: "https://github.com/Jain2098/MyMoviesApp_Expo",
+            dates: "Feb 2024",
+            active: true,
+            description:
+                "React Native Android mobile application leveraging TMDB API for live movie discovery, genre browsing, and real-time query searching with responsive mobile UI.",
+            technologies: ["React Native", "Android", "TMDB API", "JavaScript"],
+            links: [
+                {
+                    type: "GitHub",
+                    href: "https://github.com/Jain2098/MyMoviesApp_Expo",
+                    icon: <Icons.github className='size-3' />,
+                },
+            ],
+            image: "/movieexplorer.jpg",
+            video: "",
+        },
+        {
             title: "WP MoviesHub",
+            category: "Full Stack & Web",
             href: "https://Movies.himanshujain.me",
             dates: "June 2024",
             active: true,
             description:
-                "WordPress-based movie hub leveraging TMDB API for real-time data and responsive design with Tailwind CSS.",
-            technologies: ["WordPress", "TMDB API", "Tailwind CSS"],
+                "WordPress-based movie discovery portal integrating TMDB API for real-time media metadata, built with custom templates and Tailwind CSS styling.",
+            technologies: ["WordPress", "PHP", "TMDB API", "Tailwind CSS"],
             links: [
                 {
                     type: "Website",
@@ -195,60 +390,6 @@ export const DATA = {
                 },
             ],
             image: "/wpmovieshub.jpg",
-            video: "",
-        },
-        {
-            title: "ResumeBuilder",
-            href: "https://Resume.himanshujain.me",
-            dates: "Feb 2024",
-            active: true,
-            description:
-                "Fully responsive resume builder app with dynamic routing, CRUD operations, and RESTful API integration.",
-            technologies: ["React.js", "Node.js", "RESTful APIs"],
-            links: [
-                {
-                    type: "Website",
-                    href: "https://Resume.himanshujain.me",
-                    icon: <Icons.globe className='size-3' />,
-                },
-            ],
-            image: "/resumebuilder.jpg",
-            video: "",
-        },
-        {
-            title: "MovieExplorer",
-            href: "",
-            dates: "Feb 2024",
-            active: true,
-            description:
-                "React Native-based Android app utilizing TMDB API for real-time movie data and search functionality.",
-            technologies: ["React Native", "TMDB API"],
-            links: [
-                {
-                    type: "Website",
-                    href: "https://Movies.himanshujain.me",
-                    icon: <Icons.globe className='size-3' />,
-                },
-            ],
-            image: "/movieexplorer.jpg",
-            video: "",
-        },
-        {
-            title: "Drake Immigration",
-            href: "https://immigration.himanshujain.me",
-            dates: "Jan 2024",
-            active: true,
-            description:
-                "Static business website built on WordPress with custom HTML, CSS, JavaScript, and PHP for easy navigation and appointment capabilities.",
-            technologies: ["WordPress", "HTML", "CSS", "JavaScript", "PHP"],
-            links: [
-                {
-                    type: "Website",
-                    href: "https://immigration.himanshujain.me",
-                    icon: <Icons.globe className='size-3' />,
-                },
-            ],
-            image: "/drakeimmigration.jpg",
             video: "",
         },
     ],
